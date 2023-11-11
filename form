@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            font-weight: bold;
+            display: block;
+        }
+
+        .form-group{
+            margin-bottom: 1em;
+        }
+
+        .form-container{
+            background-color: grey;
+            border: 1px solid black ;
+            border-radius: 10px;
+            box-shadow:0 0 10px wheat;
+            padding: 30px;
+            width: 300px;
+            margin: 100px auto;
+            
+        }
+
+        body{
+            background-image: url(https://images.app.goo.gl/rhWvaPT6nnh4S7U99);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>FORM ENTRY DATA PEGAWAI</h2>
+        <form method="post" action="">
+
+             <div class="form-group">
+                <label for="">NIK</label>
+                <input type="text" id="nik" name="">
+             </div>
+
+             <div class="form-group">
+                <label for="">NAMA</label>
+                <input type="text" id="nama" name="">
+             </div>
+
+             <div class="form-group">
+                <label for="">TTL</label>
+                <input type="text" id="TTL" name="">
+             </div>
+
+            <div class="form-group">
+                <label for="">alamat</label>
+                <textarea name="" id="" cols="30" rows="5"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="">NO telp</label>
+                <input type="text" id="NO telp">
+            </div>
+
+             <div class="form-group">
+                <label for="">jabatan</label>
+                <select name="jabatan" id="jabatan">
+                <option value="cheo">cheo</option>
+                <option value="manager">manager</option>
+                <option value="staff">staff</option>
+                <option value="direktur">direktur</option>
+            </select>
+             </div>
+
+             <div class="row button">
+                <input type="submit" value="simpan">
+                <input type="submit" value="batal">
+             </div>
+        
+            
+             
+
+        </form>
+    </div>
+    
+</body>
+</html>
